@@ -1,7 +1,7 @@
-<span id="a">weare@changecode.io</span>:<span id="b">~</span><span id="c">$</span> cd ChangeCode/<!-- kjsdfhkjdhsfkjdshfkj -->About_Us
-<span id="a">weare@changecode.io</span>:<span id="b">~</span><span id="c">$</span> init <!-- kjsdfhkjdhsfkjdshfkj -->changecode.txt<br/><br/>
+<span id="a">weare@changecode.io</span>:<span id="b">~</span><span id="c">$</span> cd ChangeCode/<!-- 12laglaglaglaglaglaglaglaglaglaglaglag -->About_Us
+<span id="a">weare@changecode.io</span>:<span id="b">~</span><span id="c">$</span> init <!-- 12laglaglaglaglaglaglaglaglaglaglaglag -->changecode.txt<br/><br/>
 
-Our favorite quote, "<span id="k">Code for Everyone</span>". <!-- sjkfhskjf -->
+We're the founders of <!-- 12laglaglaglaglaglaglaglaglaglaglaglag -->, "<span id="k">Code for Everyone</span>". <!-- 3laglaglag -->
 
 Hey There! This is the portflio website in the skin of a terminal.<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>You can see that, this is how your portfolio would look like.</p>
 <p>You can introduce yourself here.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
