@@ -7,4 +7,6 @@ We're building Change Code to be a paradigm shift in the way that we think about
 
 Using a lot of financial engineering and web3 technology, Change Code is <! -- 3laglaglag -->creating a world where resource allocation is no longer a question of choosing between what is <span id="c">good</span> and what is <span id="b">profitable</span>.<br>
 
+Over the coming weeks and months we'll be sharing more information about our progress and how you can join us! In the meantime, if you have questions, you can find us at <! -- 3laglaglag --><a href="mailto:wearechangecode">weare@changecode.io</a>
+
 Thanks!
