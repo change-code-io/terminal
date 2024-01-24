@@ -1,7 +1,7 @@
 <span id="a">weare@changecode.io</span>:<span id="b">~</span><span id="c">$</span> cd ChangeCode/<!-- 12laglaglaglaglaglaglaglaglaglaglaglag -->About_Us
 <span id="a">weare@changecode.io</span>:<span id="b">~</span><span id="c">$</span> init <!-- 12laglaglaglaglaglaglaglaglaglaglaglag -->changecode.txt<br>
 
-We're the founders of <!-- 6laglaglaglaglaglag -->, "<span id="a">Change Code</span>", a Public Benefit Company! <!-- 6laglaglaglaglaglag --><br>
+We're the founders of <!-- 6laglaglaglaglaglag -->"<span id="a">Change Code</span>", a Public Benefit Company! <!-- 6laglaglaglaglaglag --><br>
 
 We're building Change Code to be a paradigm shift in the way that we think about, plan for, and invest in social and environmental impact. <!-- 12laglaglaglaglaglaglaglaglaglaglaglag --><br>
 
