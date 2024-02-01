@@ -61,7 +61,7 @@ jQuery(document).ready(function($) {
         },
         onBlur: function() {
             // prevent loosing focus
-            return false;
+            return true;
         },
         greetings: function() {
             this.echo(greetingsText, {keepWords: true});
