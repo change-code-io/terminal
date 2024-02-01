@@ -37,7 +37,7 @@ var App = {
     },
 }
 
-jQuery(document).ready(function($) {
+function initTerminal() {
 
     var app = App
 
@@ -61,7 +61,7 @@ jQuery(document).ready(function($) {
         },
         onBlur: function() {
             // prevent loosing focus
-            return true;
+            return false;
         },
         greetings: function() {
             this.echo(greetingsText, {keepWords: true});
@@ -69,6 +69,14 @@ jQuery(document).ready(function($) {
         completion: true,
         checkArity: false,
     });
+};
+
+$(document).ready(function($) {
+    if (document.hasFocus()) {
+        initTerminal();
+    } else {
+        $(window).on('focus', initTerminal);
+    }
 });
 
 function showStart(consoleObj)
