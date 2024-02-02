@@ -67,7 +67,7 @@
     position: relative;
     overflow: auto;
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
 	white-space: normal;
 	word-wrap: normal;
 	word-break: normal;

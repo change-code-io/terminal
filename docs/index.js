@@ -41,7 +41,7 @@ function initTerminal() {
 
     var app = App
 
-    var greetingsText =
+    var ascii =
 
 ".   ____ _                               ____          _               \n"+
 ".  / ___| |__   __ _ _ __   __ _  ___   / ___|___   __| | ___          \n"+
@@ -49,10 +49,10 @@ function initTerminal() {
 ". | |___| | | | (_| | | | | (_| |  __/ | |__| (_) | (_| |  __/         \n"+
 ".  \\____|_| |_|\\__,_|_| |_|\\__, |\\___|  \\____\\___/ \\__,_|\\___| \n"+
 ".                          |___/                                       \n"+
-"                                                                       \n"+
+"                                                                       \n"
 
 
-"[[b;#0975DC;]\tBuilding the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin learning more about Change Code.\n\n"
+    var greetingsText = "[[b;#0975DC;]Building the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin learning more about Change Code.\n\n"
 
     $('body').terminal(App, {
         prompt: function(p){
@@ -64,8 +64,13 @@ function initTerminal() {
             return false;
         },
         greetings: function() {
-            this.echo(greetingsText, {keepWords: true});
-        },
+            let width = window.innerWidth;
+            const breakPoint = 531;
+            if(width < breakPoint) {
+                this.echo(greetingsText, {keepWords: true});
+        } else {
+            this.echo(ascii + greetingsText, {keepWords: true});
+        }},
         completion: true,
         checkArity: false,
     });
