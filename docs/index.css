@@ -80,6 +80,7 @@ body.terminal {
 	word-wrap: normal;
 	word-break: normal;
 	overflow-wrap: break-word;
+    overflow-x: hidden;
 }
 .terminal > div {
     height: 100%;

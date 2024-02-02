@@ -14,8 +14,7 @@ var App = {
     },
     contact: function() {
         this.echo("");
-        this.echo("If you want to get in touch, you can send us an email at <a href='mailto:weare@changecode.io'>weare@changecode.io</a> or book some time with us <a href= >here</a>", {keepWords: true});
-        this.echo("");
+        this.echo("If you want to get in touch, you can send us an email at <a href='mailto:weare@changecode.io'>weare@changecode.io</a> or book some time with us <a href= >here</a>", {keepWords: true})
     },
     founders: function() {
         this.echo("Change Code was founded by Erin Murphy and Chris Georgen. Erin and Chris met while working at Topl, one of only a handful of blockchain protocols built specifically to power ReFi, social enterprise, and adoption in the Global South.\n\nChris has been active in web3 since 2012 and before starting Change Code, founded two startups in the space—first developing a mobile payments platform on Ethereum in 2015 and then founding Topl in 2017. Chris began programming while at Rice University as part of his research in computation physics, earning him 3 co-authored publications. \n\nBefore joining Topl, Erin worked in development finance for 10 years across 6 countries including Ukraine and India. For the UN Development Programme and others, Erin focused on micro-enterprise development, infrastructure financing, and women’s financial inclusion. In 2021, Erin graduated from the Wharton School and Lauder Institute with her MBA-MA.", {keepWords: true})
