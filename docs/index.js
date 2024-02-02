@@ -72,11 +72,7 @@ function initTerminal() {
 };
 
 $(document).ready(function($) {
-    if (document.hasFocus()) {
         initTerminal();
-    } else {
-        $(window).on('focus', initTerminal);
-    }
 });
 
 function showStart(consoleObj)
