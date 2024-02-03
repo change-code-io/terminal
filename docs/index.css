@@ -76,13 +76,13 @@
 }
 @media (max-width: 615px) {
     .terminal {
-        width: 580px;
+        width: 578px;
         padding: 10px;
     }
 }
 @media (max-width: 400px) {
     .terminal {
-        width: 380px;
+        width: 350px;
         padding-left: 10px;
         padding-right: 5px;
     }
