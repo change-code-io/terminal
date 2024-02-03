@@ -74,16 +74,17 @@
 	overflow-wrap: break-word;
     padding: 20px;
 }
-@media (max-width: 610px) {
+@media (max-width: 615px) {
     .terminal {
-        width: 560px;
+        width: 590px;
         padding: 10px;
     }
 }
 @media (max-width: 400px) {
     .terminal {
-        width: 360px;
-        padding: 10px;
+        width: 380px;
+        padding-left: 10px;
+        padding-right: 5px;
     }
 }
 body.terminal {

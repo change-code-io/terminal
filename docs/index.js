@@ -47,8 +47,7 @@ function initTerminal() {
 ". | |   | '_ \\ / _` | '_ \\ / _` |/ _ \\ | |   / _ \\ / _` |/ _ \\   \n"+
 ". | |___| | | | (_| | | | | (_| |  __/ | |__| (_) | (_| |  __/        \n"+
 ".  \\____|_| |_|\\__,_|_| |_|\\__, |\\___|  \\____\\___/ \\__,_|\\___|\n"+
-".                          |___/                                      \n"+
-"                                                                      \n"
+".                          |___/                                      \n"
 
 
     var greetingsText = "[[b;#0975DC;]Building the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin learning more about Change Code.\n\n"
@@ -83,7 +82,7 @@ function showStart(consoleObj)
 {
         consoleObj.echo("Available commands:");
         consoleObj.echo("\t[[b;#aaa;]contact]       get in touch");
-        consoleObj.echo("\t[[b;#aaa;]founders]      learn about Erin and Chris");
+        consoleObj.echo("\t[[b;#aaa;]founders]      about Erin and Chris");
         consoleObj.echo("\t[[b;#aaa;]keywords]      relevant search terms");
         consoleObj.echo("\t[[b;#aaa;]reading_list]  texts that inspire us");
         consoleObj.echo("\t[[b;#aaa;]start]         if you get lost");
