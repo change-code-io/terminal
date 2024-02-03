@@ -72,15 +72,15 @@
 	word-wrap: normal;
 	word-break: normal;
 	overflow-wrap: break-word;
-    padding: 30px;
+    padding: 20px;
 }
-@media (width: 600px) {
+@media (max-width: 610px) {
     .terminal {
-        width: 560px;
-        padding: 15px;
+        width: 570px;
+        padding: 10px;
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     .terminal {
         width: 360px;
         padding: 10px;
