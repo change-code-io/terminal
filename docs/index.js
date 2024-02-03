@@ -81,14 +81,14 @@ $(document).ready(function($) {
 function showStart(consoleObj)
 {
         consoleObj.echo("Available commands:");
-        consoleObj.echo("\t[[b;#aaa;]contact]       get in touch");
-        consoleObj.echo("\t[[b;#aaa;]founders]      about Erin and Chris");
-        consoleObj.echo("\t[[b;#aaa;]keywords]      relevant search terms");
-        consoleObj.echo("\t[[b;#aaa;]reading_list]  texts that inspire us");
-        consoleObj.echo("\t[[b;#aaa;]start]         if you get lost");
-        consoleObj.echo("\t[[b;#aaa;]clear]         clear the messy console");
-        consoleObj.echo("\t[[b;#aaa;]sudo]          looking for more control?");
-        consoleObj.echo("\t[[b;#aaa;]tech]          what we're built on");
+        consoleObj.echo("\t[[b;#0975DC;]contact]       get in touch");
+        consoleObj.echo("\t[[b;#0975DC;]founders]      about Erin and Chris");
+        consoleObj.echo("\t[[b;#0975DC;]keywords]      relevant search terms");
+        consoleObj.echo("\t[[b;#0975DC;]reading_list]  texts that inspire us");
+        consoleObj.echo("\t[[b;#0975DC;]start]         if you get lost");
+        consoleObj.echo("\t[[b;#0975DC;]clear]         clear the messy console");
+        consoleObj.echo("\t[[b;#0975DC;]sudo]          looking for more control?");
+        consoleObj.echo("\t[[b;#0975DC;]tech]          what we're built on");
         consoleObj.echo("");
         consoleObj.echo("PROTIP: press <tab> to trigger autocompletion");
 }
