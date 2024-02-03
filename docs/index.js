@@ -29,7 +29,7 @@ var App = {
         this.echo("That won't do much here, but if you want the power to create change with us, send us an email at <a href='mailto:weare@changecode.io'>weare@changecode.io</a> expressing your interest and how you think you can help!", {raw: true}, {keepWords: true})
     },
     tech: function() {
-        this.echo("CC works primarily with web3 technology including blockchains, zero-knowledge proofs, self-sovereign identity, and decentralized storage. \n\nThis website was built using Framer and this terminal was developed using jQuery Terminal.", {keepWords: true})
+        this.echo("CC works primarily with web3 technology including blockchains, zero-knowledge proofs, self-sovereign identity, and decentralized storage. It's kinda top secret, but we may be building an AI chatbot as well. Keep that to yourself.\n\nThis website was built using Framer and this terminal was developed using jQuery Terminal.", {keepWords: true})
     },
     reading_list: function() {
         this.echo("Predictably Irrational: The Hidden Forces That Shape Our Decisions | Dan Ariely | <a href=https://www.goodreads.com/en/book/show/1713426, target=_blank>link</a> <br><br>Inspired: How to Create Tech Products Customers Love | Marty Cagan | <a href=https://www.goodreads.com/en/book/show/35249663, target=_blank>link</a> <br><br>The Infinite Machine: How an Army of Crypto-hackers Is Building the Next Internet with Ethereum | Camila Russo | <a href=https://www.goodreads.com/en/book/show/50175330, target=_blank>link</a> <br><br>Capital in the Twenty First Century | Thomas Piketty | | <a href=https://www.goodreads.com/en/book/show/18736925, target=_blank>link</a>", {raw: true}, {keepWords: true})
