@@ -72,6 +72,19 @@
 	word-wrap: normal;
 	word-break: normal;
 	overflow-wrap: break-word;
+    padding: 30px;
+}
+@media (width: 600px) {
+    .terminal {
+        width: 570px;
+        padding: 15px;
+    }
+}
+@media (max-width: 390px) {
+    .terminal {
+        width: 360px;
+        padding: 10px;
+    }
 }
 body.terminal {
     height: 100%;
@@ -275,6 +288,7 @@ terminal .terminal-output > div {
     text-decoration: none;
 }
 .terminal .terminal-fill {
+    padding: 30px;
     position: absolute;
     left: 0;
     top: -100%;
@@ -286,8 +300,17 @@ terminal .terminal-output > div {
     pointer-events: none;
     box-sizing: border-box;
 }
-.terminal, .terminal .terminal-fill {
-    padding: 30px;
+@media (width: 6000px) {
+    .terminal-fill {
+        width: 570px;
+        padding: 15px;
+    }
+}
+@media (max-width: 390px) {
+    .terminal-fill {
+        width: 360px;
+        padding: 10px;
+    }
 }
 @-webkit-keyframes terminal-blink {
   0%, 100% {

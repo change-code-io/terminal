@@ -83,7 +83,7 @@ function showStart(consoleObj)
 {
         consoleObj.echo("Available commands:");
         consoleObj.echo("\t[[b;#aaa;]contact]       get in touch");
-        consoleObj.echo("\t[[b;#aaa;]founders]      a little about Erin and Chris");
+        consoleObj.echo("\t[[b;#aaa;]founders]      learn about Erin and Chris");
         consoleObj.echo("\t[[b;#aaa;]keywords]      relevant search terms");
         consoleObj.echo("\t[[b;#aaa;]reading_list]  texts that inspire us");
         consoleObj.echo("\t[[b;#aaa;]start]         if you get lost");
