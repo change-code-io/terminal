@@ -76,15 +76,27 @@
 }
 @media (max-width: 615px) {
     .terminal {
-        width: 578px;
         padding: 10px;
+    }
+}
+@media (max-width: 615px) {
+    .terminal-wrapper .terminal-fill {
+        width: 100%;
+    }
+}
+@media (max-width: 615px) {
+    .terminal-output {
+        width: 580px;
     }
 }
 @media (max-width: 400px) {
     .terminal {
-        width: 350px;
-        padding-left: 10px;
-        padding-right: 5px;
+        padding: 5px;
+    }
+}
+@media (max-width: 400px) {
+    .terminal-output {
+        width: 340px;
     }
 }
 body.terminal {
