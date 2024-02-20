@@ -14,6 +14,11 @@
  *
  * Date: Tue, 13 Feb 2024 21:18:13 +0000
  */
+ body {
+    margin: 10px;
+    background-color: #000000;
+ }
+ 
  .terminal .terminal-output .format, .cmd .format,
  .cmd-prompt, .cmd-prompt div {
      display: inline-block;
@@ -1202,3 +1207,25 @@
          --animation: terminal-none;
      }
  }
+
+ @media (min-width: 599px) {
+    /* This will hide the default scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* This will create a new track piece */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* This will create a new thumb piece */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Change the scrollbar thumb color on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}

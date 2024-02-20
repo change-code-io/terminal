@@ -65,11 +65,11 @@ function showStart(consoleObj)
 
 function getGreetings() {
     if (window.innerWidth > 580) {
-      return ascii + greetingsText;
+        return (ascii + greetingsText);
     } else {
-      return greetingsText;  
+        return (greetingsText);
     }
-  }
+}
 
 $(function() {
     $('#terminal').terminal(aboutCC, {
@@ -78,5 +78,6 @@ $(function() {
           },
         prompt: prompt1,
         completion: ['start', 'contact', 'tech', 'founders', 'keywords', 'reading_list', 'clear', 'sudo', 'ls'],
+        keepWords: true,
     });
  });
