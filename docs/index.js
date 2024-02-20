@@ -1,6 +1,18 @@
-var e = "[[b;#39ff14;]weare@changecode]";
+var ascii =
 
-var App = {
+".   ____ _                               ____          _              \n"+
+".  / ___| |__   __ _ _ __   __ _  ___   / ___|___   __| | ___         \n"+
+". | |   | '_ \\ / _` | '_ \\ / _` |/ _ \\ | |   / _ \\ / _` |/ _ \\   \n"+
+". | |___| | | | (_| | | | | (_| |  __/ | |__| (_) | (_| |  __/        \n"+
+".  \\____|_| |_|\\__,_|_| |_|\\__, |\\___|  \\____\\___/ \\__,_|\\___|\n"+
+".                          |___/                                      \n"
+
+
+var greetingsText = "[[b;#0975DC;]Building the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin learning more about Change Code.\n\n"
+
+var prompt1 = "[[b;#39ff14;]weare@changecode]:~#"
+
+var aboutCC = {
     echo: function(text) {
         this.echo(text, {keepWords: true});
     },
@@ -36,48 +48,6 @@ var App = {
     },
 }
 
-function initTerminal() {
-
-    var app = App
-
-    var ascii =
-
-".   ____ _                               ____          _              \n"+
-".  / ___| |__   __ _ _ __   __ _  ___   / ___|___   __| | ___         \n"+
-". | |   | '_ \\ / _` | '_ \\ / _` |/ _ \\ | |   / _ \\ / _` |/ _ \\   \n"+
-". | |___| | | | (_| | | | | (_| |  __/ | |__| (_) | (_| |  __/        \n"+
-".  \\____|_| |_|\\__,_|_| |_|\\__, |\\___|  \\____\\___/ \\__,_|\\___|\n"+
-".                          |___/                                      \n"
-
-
-    var greetingsText = "[[b;#0975DC;]Building the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin learning more about Change Code.\n\n"
-
-    $('body').terminal(App, {
-        prompt: function(p){
-            var path = '~'
-            p(e + ":" + path + "# ");
-        },
-        onBlur: function() {
-            // prevent loosing focus
-            return false;
-        },
-        greetings: function() {
-            let width = window.innerWidth;
-            const breakPoint = 580;
-            if(width < breakPoint) {
-                this.echo(greetingsText, {keepWords: true});
-        } else {
-            this.echo(ascii + greetingsText, {keepWords: true});
-        }},
-        completion: true,
-        checkArity: false,
-    });
-};
-
-$(document).ready(function($) {
-        initTerminal();
-});
-
 function showStart(consoleObj)
 {
         consoleObj.echo("Available commands:");
@@ -92,3 +62,22 @@ function showStart(consoleObj)
         consoleObj.echo("");
         consoleObj.echo("PROTIP: press <tab> to trigger autocompletion");
 }
+
+function getGreetings() {
+    if (window.innerWidth > 580) {
+        return (ascii + greetingsText);
+    } else {
+        return (greetingsText);
+    }
+}
+
+$(function() {
+    $('#terminal').terminal(aboutCC, {
+        greetings: function() {
+            return getGreetings();
+          },
+        prompt: prompt1,
+        completion: ['start', 'contact', 'tech', 'founders', 'keywords', 'reading_list', 'clear', 'sudo', 'ls'],
+        keepWords: true,
+    });
+ });
