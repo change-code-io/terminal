@@ -8,7 +8,7 @@ var ascii =
 ".                          |___/                                      \n"
 
 
-var greetingsText = "[[b;#0975DC;]Building the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin learning more about Change Code.\n\n"
+var greetingsText = "[[b;#0975DC;]Building the every economy]\n\n\nWelcome human, type [[b;#0975DC;]start] to list available commands and begin\nlearning more about Change Code.\n\n"
 
 var prompt1 = "[[b;#39ff14;]weare@changecode]:~#"
 
