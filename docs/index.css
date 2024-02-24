@@ -138,10 +138,6 @@
      width: 100%;
      z-index: 300;
  }
-.terminal, .cmd {
-    overflow-wrap: break-word;
-    max-width: 100%;
-}
  .terminal .cmd, .terminal .cmd div {
      background: transparent !important;
  }
@@ -239,7 +235,7 @@
      height: auto;
  }
  .terminal .terminal-output > div:not(.raw) div {
-     white-space: normal;
+     white-space: nowrap;
      clear: both;
  }
  .cmd .cmd-prompt > span, .cmd .cmd-prompt > a, .cmd .cmd-prompt:empty {
@@ -1049,7 +1045,7 @@
  }
  .cmd .cursor-wrapper li {
      cursor: pointer;
-     white-space: normal;
+     white-space: nowrap;
  }
  .cmd .cursor-wrapper li:hover {
      background: #aaa;
