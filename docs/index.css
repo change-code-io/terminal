@@ -138,6 +138,9 @@
      width: 100%;
      z-index: 300;
  }
+.terminal, .cmd {
+    overflow-wrap: break-word;
+}
  .terminal .cmd, .terminal .cmd div {
      background: transparent !important;
  }
