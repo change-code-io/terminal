@@ -16,6 +16,7 @@
  */
  body {
     background-color: #000000;
+    margin: 12px;
  }
  .terminal .terminal-output .format, .cmd .format,
  .cmd-prompt, .cmd-prompt div {
