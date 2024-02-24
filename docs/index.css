@@ -15,10 +15,8 @@
  * Date: Tue, 13 Feb 2024 21:18:13 +0000
  */
  body {
-    margin: 10px;
     background-color: #000000;
  }
- 
  .terminal .terminal-output .format, .cmd .format,
  .cmd-prompt, .cmd-prompt div {
      display: inline-block;
@@ -274,16 +272,12 @@
  .cmd,
  .terminal-font-forcer,
  .cmd span:not(.fas):not(.far):not(.fa) {
-    font-family: "space mono";
-    font-family: var(--font, "space mono");
-
+     font-family: "Space Mono", monospace;
+     font-family: var(--font, "Space Mono", monospace);
  }
  .terminal,
  .cmd {
      font-size: 12px;
-     font-family: "space mono";
-     font-family: var(--font, "space mono");
-     color: #ffffff !important;
  }
  .terminal-output > div:not(.raw) div::before,
  .cmd .cmd-line::before {
@@ -297,7 +291,7 @@
  }
  .terminal, terminal-output > div:not(.raw) div > span:not(.token):not(.inverted):not(.terminal-inverted):not(.cmd-inverted):not(.terminal-error):not(.emoji),
  .cmd span[data-text]:not(.cmd-inverted):not(.token):not(.emoji) {
-     color: #ffffff;
+     color: #aaa;
      background-color: #000;
  }
  .terminal span[data-text] span, .cmd span[data-text] span {
@@ -848,6 +842,7 @@
      .cmd span[data-text]:not(.cmd-inverted):not(.token):not(.emoji),
      .terminal.external [data-text],
      .cmd div {
+         color: var(--color, #fff);
          background-color: var(--background, #000);
      }
      .terminal [data-text], .cmd [data-text] {
@@ -964,7 +959,7 @@
  @property --color {
    syntax: '<color>';
    inherits: true;
-   initial-value: rgba(170, 170, 170, 0.99);
+   initial-value: #fff;
  }
  @property --background {
    syntax: '<color>';
